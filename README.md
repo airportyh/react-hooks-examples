@@ -5,6 +5,7 @@
 * clone it
 * `cd hooks-play`
 * `yarn install`
+* `yarn start`
 
 ## Why?
 
