@@ -23,4 +23,4 @@
 
 ## Basic Hooks Examples
 
-* useState - <src/ex/UseStateExample.tsx>
+* You can find the various examples under the [src/ex folder](src/ex).
