@@ -8,7 +8,7 @@
 
 ## Why?
 
-![Why Hooks?](slides/01-why-hooks)
+![Why Hooks?](slides/01-why-hooks.png)
 
 ## How They Work - React Rendering Loop
 
