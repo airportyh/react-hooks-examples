@@ -3,7 +3,7 @@
 ## Get this Code
 
 * clone it
-* `cd hooks-play`
+* `cd react-hooks-examples`
 * `yarn install`
 * `yarn start`
 
