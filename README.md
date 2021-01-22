@@ -7,6 +7,10 @@
 * `yarn install`
 * `yarn start`
 
+## Recorded Talk
+
+You can watch the recorded talk that these examples were prepared for [here](https://www.youtube.com/watch?v=8IX_4z-gfro).
+
 ## Why?
 
 ![Why Hooks?](slides/01-why-hooks.png)
