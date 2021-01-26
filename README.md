@@ -3,10 +3,14 @@
 ## Get this Code
 
 * clone it
-* `cd hooks-play`
+* `cd react-hooks-examples`
 * `yarn install`
 * in separate terminal tab: `npm run server`
 * back in first terminal tab: `yarn start`
+
+## Recorded Talk
+
+You can watch the recorded talk that these examples were prepared for [here](https://www.youtube.com/watch?v=8IX_4z-gfro).
 
 ## Why?
 
