@@ -64,14 +64,14 @@ export function FetchDataWithCleanUpExample() {
     );
 }
 
-export function FetchDataWithRequestCancelationExample() {
+function useFetchData(url: string) {
     const [data, setData] = useState<any>(null);
 
     useEffect(() => {
         const controller = new AbortController();
         async function fetchData() {
             try {
-                const request = await fetch("http://localhost:1234/Todos", {
+                const request = await fetch(url, {
                     signal: controller.signal
                 });
                 const theData = await request.json();
@@ -88,7 +88,14 @@ export function FetchDataWithRequestCancelationExample() {
         }
         return cleanup;
     }, []);
+    
+    return data;
+}
 
+
+export function FetchDataWithRequestCancelationExample() {
+    const data = useFetchData("http://localhost:1234/Todos");
+    
     return (
         <div>
             { data ? 

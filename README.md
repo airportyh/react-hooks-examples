@@ -5,7 +5,8 @@
 * clone it
 * `cd hooks-play`
 * `yarn install`
-* `yarn start`
+* in separate terminal tab: `npm run server`
+* back in first terminal tab: `yarn start`
 
 ## Why?
 

@@ -2,11 +2,13 @@
   "Todos": [
     {
       "id": 1,
-      "todo": "Check Todo"
+      "todo": "Check Todo",
+      "complete": false
     },
     {
       "id": 2,
-      "todo": "New Todo"
+      "todo": "New Todo",
+      "complete": true
     }
   ]
 }
