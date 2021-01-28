@@ -12,16 +12,16 @@ import { UseContextExample } from "./ex/UseContextExample";
 import { ObservableFullExample } from "./ex/ObservableFullExample";
 
 const options = [
-    { name: "Observable Full Example", Component: ObservableFullExample },
-    { name: "Observable Example", Component: ObservableExample },
-    { name: "Focus Element Example", Component: FocusElementExample },
+    { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
     { name: "useState", Component: UseStateExample },
     { name: "useEffect (Window Size)", Component: WindowResizeExample },
     { name: "useImperativeHandle", Component: UseImperativeHandleExample },
     { name: "Fetch Data Example", Component: FetchDataExample },
     { name: "Fetch Data Example (with cleanup)", Component: FetchDataWithCleanUpExample },
     { name: "Fetch Data Example (with request cancelation)", Component: FetchDataWithRequestCancelationExample },
-    { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
+    { name: "Focus Element Example", Component: FocusElementExample },
+    { name: "Observable Full Example", Component: ObservableFullExample },
+    { name: "Observable Example", Component: ObservableExample },
     { name: "Simple Auto Focus Example", Component: SimpleAutoFocusElementExample },
     { name: "useContext Example", Component: UseContextExample }
 ];

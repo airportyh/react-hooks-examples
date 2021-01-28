@@ -8,7 +8,7 @@
     {
       "id": 2,
       "todo": "New Todo",
-      "complete": true
+      "complete": false
     }
   ]
 }

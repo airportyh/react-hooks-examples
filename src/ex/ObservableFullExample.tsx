@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { BehaviorSubject } from "rxjs";
 
+const count$ = new BehaviorSubject(1);
+
 export function ObservableFullExample() {
-    const [count$] = useState<BehaviorSubject<number>>(() => new BehaviorSubject(1));
     const [value, setValue] = useState<number>(count$.value);
     useEffect(() => {
         const subscription = count$.subscribe(setValue);
