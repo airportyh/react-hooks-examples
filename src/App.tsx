@@ -6,13 +6,15 @@ import UseImperativeHandleExample from "./ex/UseImperativeHandleExample";
 import WindowResizeExample from "./ex/WindowResizeExample";
 import { FetchDataExample, FetchDataWithCleanUpExample, FetchDataWithRequestCancelationExample } from "./ex/FetchDataExample";
 import { SimpleAutoFocusElementExample, FocusElementExample } from "./ex/UseRefFocusElementExample";
-import { FetchDataOnSteroidsExample } from "./ex/FetchDataOnSteroidsExample";
+// import { FetchDataOnSteroidsExample } from "./ex/FetchDataOnSteroidsExample";
+import { FetchWithCancellableRequestExample } from "./ex/FetchWithCancellableRequest";
 import { ObservableExample } from "./ex/ObservableExample";
 import { UseContextExample } from "./ex/UseContextExample";
 import { ObservableFullExample } from "./ex/ObservableFullExample";
 
 const options = [
-    { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
+    { name: "Fetch with Cancellable Request", Component: FetchWithCancellableRequestExample },
+    // { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
     { name: "useState", Component: UseStateExample },
     { name: "useEffect (Window Size)", Component: WindowResizeExample },
     { name: "useImperativeHandle", Component: UseImperativeHandleExample },
