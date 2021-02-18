@@ -6,15 +6,21 @@ import UseImperativeHandleExample from "./ex/UseImperativeHandleExample";
 import WindowResizeExample from "./ex/WindowResizeExample";
 import { FetchDataExample, FetchDataWithCleanUpExample, FetchDataWithRequestCancelationExample } from "./ex/FetchDataExample";
 import { SimpleAutoFocusElementExample, FocusElementExample } from "./ex/UseRefFocusElementExample";
-// import { FetchDataOnSteroidsExample } from "./ex/FetchDataOnSteroidsExample";
-import { FetchWithCancellableRequestExample } from "./ex/FetchWithCancellableRequest";
+import { FetchDataOnSteroidsExample } from "./ex/FetchDataOnSteroidsExample";
+import { CancellableRequestExample01B } from "./ex/CancellableRequestExample01";
+import { CancellableRequestExample02 } from "./ex/CancellableRequestExample02";
+import { CancellableRequestWithBehaviorSubjectExample } from "./ex/CancellableRequestWithBehaviorSubjectExample";
+import { CancellableRequestWithRequestObservableExample } from "./ex/CancellableRequestWithRequestObservable";
 import { ObservableExample } from "./ex/ObservableExample";
 import { UseContextExample } from "./ex/UseContextExample";
 import { ObservableFullExample } from "./ex/ObservableFullExample";
 
 const options = [
-    { name: "Fetch with Cancellable Request", Component: FetchWithCancellableRequestExample },
-    // { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
+    { name: "Fetch with Cancellable Request", Component: CancellableRequestExample01B },
+    { name: "Fetch with Cancellable Request 2", Component: CancellableRequestExample02 },
+    { name: "Fetch with Cancellable Request (Behavior Subject)", Component: CancellableRequestWithBehaviorSubjectExample },
+    { name: "Fetch with Cancellable Request (Request Observable)", Component: CancellableRequestWithRequestObservableExample },
+    { name: "Fetch Data Example (On Steroids)", Component: FetchDataOnSteroidsExample },
     { name: "useState", Component: UseStateExample },
     { name: "useEffect (Window Size)", Component: WindowResizeExample },
     { name: "useImperativeHandle", Component: UseImperativeHandleExample },
